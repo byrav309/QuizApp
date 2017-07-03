@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            style="@style/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question1_title" />
+        <TextView
+            style="@style/questionAndAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question1" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/radioButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1_oxygen" />
+            <RadioButton
+                android:id="@+id/radio1_hydrogen_sulphide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1_hydrogen_sulphide" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1_carbon" />
+        </RadioGroup>
+        <TextView
+            style="@style/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question2_title" />
+        <TextView
+            style="@style/questionAndAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question2" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/radioButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2_phosphorous" />
+            <RadioButton
+                android:id="@+id/radio2_bromine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2_bromine" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2_chlorine" />
+        </RadioGroup>
+        <TextView
+            style="@style/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question3_title" />
+        <TextView
+            style="@style/questionAndAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question3" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/radioButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3_copper" />
+            <RadioButton
+                android:id="@+id/radio3_megnesium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3_megnesium" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3_iron" />
+        </RadioGroup>
+        <TextView
+            style="@style/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question4_title" />
+        <TextView
+            style="@style/questionAndAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question4" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/radioButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/radio4_graphite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4_graphite" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4_silicon" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4_Charcoal" />
+        </RadioGroup>
+        <TextView
+            style="@style/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question5_title" />
+        <TextView
+            style="@style/questionAndAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question5" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/radioButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer5_tin" />
+            <RadioButton
+                android:id="@+id/radio5_mercury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer5_mercury" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer5_lead" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question6_title" />
+
+        <TextView
+            style="@style/questionAndAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question6" />
+        <EditText
+            android:id="@+id/answer6_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/answer"/>
+
+        <TextView
+            style="@style/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question7_title" />
+
+        <TextView
+            style="@style/questionAndAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question7" />
+        <CheckBox
+            android:id="@+id/answer7_delhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delhi"/>
+        <CheckBox
+            android:id="@+id/answer7_mumbai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mumbai"/>
+        <CheckBox
+            android:id="@+id/answer7_banglore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bangalore"/>
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/submitButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>

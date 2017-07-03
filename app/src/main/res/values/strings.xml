@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="question1_title">Question 1</string>
+    <string name="question2_title">Question 2</string>
+    <string name="question3_title">Question 3</string>
+    <string name="question4_title">Question 4</string>
+    <string name="question5_title">Question 5</string>
+    <string name="question6_title">Question 6</string>
+    <string name="question7_title">Question 7</string>
+    <string name="question1">Brass gets discoloured in air because of the presence of which of the following gases in air?</string>
+    <string name="answer1_oxygen">Oxygen</string>
+    <string name="answer1_hydrogen_sulphide">Hydrogen Sulphide</string>
+    <string name="answer1_carbon">Carbon</string>
+    <string name="question2">Which of the following is a non metal that remains liquid at room temperature?</string>
+    <string name="answer2_phosphorous">Phosphorous</string>
+    <string name="answer2_bromine">Bromine</string>
+    <string name="answer2_chlorine">Chlorine</string>
+    <string name="question3">Chlorophyll is a naturally occurring chelate compound in which central metal is</string>
+    <string name="answer3_copper">Copper</string>
+    <string name="answer3_megnesium">Magnesium</string>
+    <string name="answer3_iron">Iron</string>
+    <string name="question4">Which of the following is used in pencils?</string>
+    <string name="answer4_graphite">Graphite</string>
+    <string name="answer4_silicon">Silicon</string>
+    <string name="answer4_Charcoal">Charcoal</string>
+    <string name="question5">Which of the following metals forms an amalgam with other metals?</string>
+    <string name="answer5_tin">Tin</string>
+    <string name="answer5_mercury">Mercury</string>
+    <string name="answer5_lead">Lead</string>
+    <string name="question6">What is the National Animal of India?</string>
+    <string name="question7">Which is the capital of India and Karnataka?</string>
+    <string name="delhi">Delhi</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="bangalore">Bangalore</string>
+    <string name="submit">Submit</string>
+    <string name="correct_answer">Correct Answers: %d/7</string>
+    <string name="answer">Answer here</string>
+    <string name="tiger">Tiger</string>
+
+</resources>
